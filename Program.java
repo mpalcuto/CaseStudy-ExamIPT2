@@ -52,3 +52,20 @@ class Price extends Hardware {
 		System.out.println("P30,000");
 	}
 }
+
+class Warranty extends Laptop{
+	public void war(){
+		System.out.println("1 year warranty");
+	}
+}
+class Op extends Laptop {
+	public void sys(){
+		System.out.println("Windows 7, 8, 8.1,10");
+	}
+}
+class Size extends Hardware{
+	public void inch(){
+		System.out.println("15 inches");
+		
+	}
+}
