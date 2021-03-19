@@ -37,3 +37,18 @@ class Brand extends Laptop {
 		System.out.println("inside brand there is a: ");
 		}
 }
+class Screen extends Hardware {
+	public void reen() {
+		System.out.println("LCD/LED");
+		}
+}
+class KeyBoard extends Hardware {
+	public void key() {
+		System.out.println("Space bar and enter");
+		}
+}
+class Price extends Hardware {
+	public void tag() {
+		System.out.println("P30,000");
+	}
+}
